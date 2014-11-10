@@ -9,7 +9,7 @@
         android:layout_height="30dp"
         android:src="@drawable/lan2" />
 
-    <ScrollView
+    <com.xinlan.magnetic.MyScrollView
         android:id="@+id/scroll"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content" >
@@ -20,6 +20,7 @@
             android:orientation="vertical" >
 
             <Button
+                android:id="@+id/first_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="按钮1" />
@@ -55,7 +56,9 @@
                 android:src="@drawable/maolilan" />
             
             <TextView
-                android:layout_margin="10dp"
+                android:layout_margin="2dp"
+                android:padding="10dp"
+                android:background="#E9EBE3"
                 android:id="@+id/mag"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
@@ -73,6 +76,6 @@
                 android:scaleType="fitXY"
                 android:src="@drawable/maolilan" />
         </LinearLayout>
-    </ScrollView>
+    </com.xinlan.magnetic.MyScrollView>
 
 </LinearLayout>
