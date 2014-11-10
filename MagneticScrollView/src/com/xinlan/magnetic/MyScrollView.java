@@ -77,6 +77,10 @@ public class MyScrollView extends ScrollView
         smoothScrollTo(0, toY);
     }
     
+    private void doAdjust(){
+        
+    }
+    
     public void magnicViewToTop(){
         //int y = (int) magnicView.getY() + magnicView.getHeight();
         int y = (int) magnicView.getY();
